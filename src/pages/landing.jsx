@@ -20,7 +20,7 @@ const LandingPage = () => {
   return (
     <main className="flex flex-col gap-10 sm:gap-20 py-10 sm:py-20">
       <section className="text-center ">
-        <h1 className="flex flex-col items-center justify-center gradient-title font-extrabold text-4xl sm:text-6xl lg:text-8xl tracking-tighter py-4">
+        <h1 className="flex flex-col items-center justify-center gradient-title font-extrabold text-3xl sm:text-5xl lg:text-5xl tracking-tighter py-4">
           Find Your Dream Job
           <span className="flex items-center gap-2 sm:gap-6">
             at
@@ -68,7 +68,7 @@ const LandingPage = () => {
         </CarouselContent>
       </Carousel>
 
-      <img src="/bannerf.jpg" className="w-full" />
+      <img src="/banner.jpg" className="w-full" />
 
       <section className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <Card>
